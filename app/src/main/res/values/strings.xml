@@ -1,0 +1,45 @@
+<resources>
+    <!--profile bar-->
+    <string name="app_name">TwitterProject</string>
+    <string name="user_name">Pixsellz</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="smallpixsellz">@pixsellz</string>
+    <string name="joined_date">Joined July 2023</string>
+    <string name="number_following">1</string>
+    <string name="number_followers">2</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <!--tabs bar-->
+    <string name="posts">Posts</string>
+    <string name="replies">Replies</string>
+    <string name="highlights">Highlights</string>
+    <string name="media">Media</string>
+    <string name="likes">Likes</string>
+    <!--tweet-->
+    <string name="pixsellz_7_">@pixsellz 2/3/23</string>
+    <string name="scheme_cons">Scheme Constructor - your ultimate prototyping kit for all  UX web
+     and mobileepp desgin!</string>
+    <string name="pinned_tweet">Pinned Tweet</string>
+    <string name="constructor">constructor.pixesellz.io</string>
+    <string name="prototyping">#prototyping #wireframe #uiux #ux</string>
+    <string name="views">109 views</string>
+    <string name="some_id">0:11</string>
+    <string name="comment_num">2</string>
+    <string name="retweet_num">2</string>
+    <string name="tweet_likes">15</string>
+    <!--content discription-->
+    <string name="small_profile">small profile</string>
+    <string name="back_icon">back icon</string>
+    <string name="search_icon">search icon</string>
+    <string name="option_icon">option icon</string>
+    <string name="profile_img">profile image</string>
+    <string name="activity_icon">activity icon</string>
+    <string name="comment_icon">comment icon</string>
+    <string name="retweet_icon">retweet icon</string>
+    <string name="heart_icon">heart icon</string>
+    <string name="share_icon">share icon</string>
+    <string name="calendar_icon">calendar icon</string>
+    <string name="pin_soild_i">pin solid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

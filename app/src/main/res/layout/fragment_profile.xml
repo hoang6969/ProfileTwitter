@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="119dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#4C9EEB"
+        app:layout_constraintBottom_toTopOf="@+id/guide_line"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <ImageView
+            android:contentDescription="@string/back_icon"
+            android:id="@+id/backIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/back_icon" />
+        <ImageView
+            android:contentDescription="@string/search_icon"
+            android:id="@+id/searchIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/search_icon" />
+        <ImageView
+            android:contentDescription="@string/option_icon"
+            android:id="@+id/optionIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/options_icon" />
+    </RelativeLayout>
+
+    <ImageView
+        android:contentDescription="@string/profile_img"
+        android:id="@+id/imageView3"
+        android:layout_width="72dp"
+        android:layout_height="114dp"
+        android:layout_marginEnd="290dp"
+        app:layout_constraintBottom_toBottomOf="@id/guide_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guide_line"
+        app:srcCompat="@drawable/img_profile" />
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guide_line"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp">
+        <TextView
+            android:id="@+id/edit_profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_profile"
+            android:textAppearance="@style/edit_profil"
+            android:paddingStart="10dp"
+            android:paddingEnd="0dp"
+            android:paddingTop="5dp"/>
+
+        <View
+            android:id="@+id/button_stro"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginStart="20dp"
+        android:id="@+id/detailuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guide_line"
+        android:orientation="vertical"
+        app:layout_goneMarginTop="45dp">
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="87dp"
+            android:layout_weight="1"
+            android:layout_height="26dp"
+            android:text="@string/user_name"
+            android:textAppearance="@style/pixsellz"/>
+        <TextView
+            android:id="@+id/smallPixsellz"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/smallpixsellz"
+            android:textAppearance="@style/smallpixsellz"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:contentDescription="@string/calendar_icon"
+                android:id="@+id/calendarIcon"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/calendar" />
+            <TextView
+                android:paddingTop="20dp"
+                android:layout_width="0dp"
+                android:id="@+id/signDate"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/joined_date"
+                android:paddingStart="5dp"
+                android:paddingEnd="-5dp"
+                android:textAppearance="@style/profle_detail"
+                android:gravity="top"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/detailuser">
+
+            <TextView
+                android:id="@+id/followNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_following"
+                android:textAppearance="@style/num_fling_ers"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/following"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/following"
+                android:textAppearance="@style/profle_detail"
+                android:paddingStart="3dp"
+                android:paddingEnd="0dp"/>
+            <TextView
+                android:id="@+id/follownersNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_followers"
+                android:textAppearance="@style/num_fling_ers"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:id="@+id/followers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/followers"
+                android:paddingStart="3dp"
+                android:paddingEnd="0dp"
+                android:textAppearance="@style/profle_detail"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/detailuser"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tweetRext"
+            android:text="@string/posts"
+            android:textAppearance="@style/posts"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tweetReplies"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/replies"
+            android:textAppearance="@style/tab_bars"/>
+        <TextView
+            android:id="@+id/tweetHighlight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/highlights"
+            android:textAppearance="@style/tab_bars"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tweetMedia"
+            android:text="@string/media"
+            android:gravity="center"
+            android:textAppearance="@style/tab_bars"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tweetlikes"
+            android:text="@string/likes"
+            android:gravity="center"
+            android:textAppearance="@style/tab_bars"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/horizontalLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager">
+
+        <View
+            android:layout_width="75dp"
+            android:layout_height="3dp"
+            android:background="#4C9EEB"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="#D0D1D1" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/viewPager"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
