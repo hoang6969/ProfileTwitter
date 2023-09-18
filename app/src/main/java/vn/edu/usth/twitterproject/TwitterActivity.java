@@ -36,4 +36,6 @@ public class TwitterActivity extends AppCompatActivity {
         Log.i("Weather", "onStop() called");
     }
 
+
+
 }
