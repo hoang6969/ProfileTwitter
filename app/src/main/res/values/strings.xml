@@ -32,6 +32,11 @@
     <string name="must_have_i">Must have icon collection</string>
     <string name="the_best_fr">The Best Free Icon Packs Everyone Must Download i...</string>
     <string name="graphic_mama">graphicmama.com</string>
+    <!--media-->
+    <string name="freebie_ale">Freebie Alert! ⚠ Mobile Apps Library consists of 120+ reconstructed screens of four popular mobile apps.</string>
+    <string name="download">Download:</string>
+    <string name="dowload_app">apps.pixsellz.io</string>
+    <string name="freebie_uid">#freebie #uidesign #whatsapp #messenger #instagram #sketchapp #figma</string>
     <!--content discription-->
     <string name="small_profile">small profile</string>
     <string name="back_icon">back icon</string>

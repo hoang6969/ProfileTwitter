@@ -58,9 +58,9 @@ public class TwitterActivity extends AppCompatActivity {
 // returns an instance of Fragment corresponding to the specified page
             switch (page) {
                 case 0: return new PostFragment();
-                case 1: return new PostFragment();
+                case 1: return new RepliesFragment();
                 case 2: return new PostFragment();
-                case 3: return new PostFragment();
+                case 3: return new MediaFragment();
                 case 4: return new PostFragment();
             }
             return new Fragment(); // failsafe
