@@ -15,7 +15,7 @@
     <string name="highlights">Highlights</string>
     <string name="media">Media</string>
     <string name="likes">Likes</string>
-    <!--tweet-->
+    <!--posts-->
     <string name="pixsellz_7_">@pixsellz 2/3/23</string>
     <string name="scheme_cons">Scheme Constructor - your ultimate prototyping kit for all  UX web
      and mobileepp desgin!</string>
@@ -27,6 +27,11 @@
     <string name="comment_num">2</string>
     <string name="retweet_num">2</string>
     <string name="tweet_likes">15</string>
+
+    <!--replies-->
+    <string name="must_have_i">Must have icon collection</string>
+    <string name="the_best_fr">The Best Free Icon Packs Everyone Must Download i...</string>
+    <string name="graphic_mama">graphicmama.com</string>
     <!--content discription-->
     <string name="small_profile">small profile</string>
     <string name="back_icon">back icon</string>
@@ -40,6 +45,6 @@
     <string name="share_icon">share icon</string>
     <string name="calendar_icon">calendar icon</string>
     <string name="pin_soild_i">pin solid</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
