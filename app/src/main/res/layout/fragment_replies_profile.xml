@@ -11,7 +11,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:context=".PostFragment">
+            tools:context=".PostProfileFragment">
             <RelativeLayout
                 android:id="@+id/tweetbar"
                 android:layout_width="match_parent"
@@ -25,7 +25,7 @@
                     android:layout_marginEnd="20dp"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="37dp"
-                    android:background="@drawable/down_arrow_icon"
+                    android:background="@drawable/down_arrow_icon_pro"
                     />
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_marginLeft="84dp"
                         android:layout_marginTop="80dp"
-                        android:background="@drawable/rectangle" />
+                        android:background="@drawable/rectangle_pro" />
 
                     <ImageView
                         android:contentDescription="@string/small_profile"
@@ -100,7 +100,7 @@
                         android:layout_marginLeft="85dp"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="75dp"
-                        android:background="@drawable/replies_img"
+                        android:background="@drawable/replies_img_pro"
                         />
 
                     <TextView
@@ -131,7 +131,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="84dp"
                     android:layout_alignParentBottom="true"
-                    android:background="@drawable/comment_icon"
+                    android:background="@drawable/comment_icon_pro"
                     />
 
                 <View
@@ -141,7 +141,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="149.38dp"
                     android:layout_alignParentBottom="true"
-                    android:background="@drawable/retweet_stroke_icon"
+                    android:background="@drawable/retweet_stroke_icon_pro"
                     />
 
                 <View
@@ -151,7 +151,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="216.5dp"
                     android:layout_alignParentBottom="true"
-                    android:background="@drawable/heart_solid_icon"
+                    android:background="@drawable/heart_solid_icon_pro"
                     />
                 <View
                     android:id="@+id/share_strok"
@@ -161,7 +161,7 @@
                     android:layout_marginLeft="282.5dp"
                     android:layout_alignParentBottom="true"
                     android:layout_marginBottom="11.2dp"
-                    android:background="@drawable/share_stroke_icon"/>
+                    android:background="@drawable/share_stroke_icon_pro"/>
 
                 <View
                     android:id="@+id/activity_ic"
@@ -170,7 +170,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginLeft="365dp"
                     android:layout_alignParentBottom="true"
-                    android:background="@drawable/activity_icon"
+                    android:background="@drawable/activity_icon_pro"
                     />
             </RelativeLayout>
 

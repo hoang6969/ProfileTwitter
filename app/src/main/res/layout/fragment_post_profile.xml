@@ -11,7 +11,7 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".PostFragment">
+    tools:context=".PostProfileFragment">
     <RelativeLayout
         android:id="@+id/tweetbar"
         android:layout_width="match_parent"
@@ -111,7 +111,7 @@
             android:layout_marginEnd="20dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="183dp"
-            android:src="@drawable/uiux"/>
+            android:src="@drawable/uiux_pro"/>
 
         <TextView
             android:id="@+id/views"
@@ -135,7 +135,7 @@
             android:layout_marginStart="210dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="253dp"
-            android:background="@drawable/round"
+            android:background="@drawable/round_pro"
             />
         <View
             android:id="@+id/polygon_1"
@@ -145,7 +145,7 @@
             android:layout_marginStart="220dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="260dp"
-            android:background="@drawable/polygon_1"
+            android:background="@drawable/polygon_1_pro"
             />
 
         <TextView
@@ -171,7 +171,7 @@
                 android:layout_marginStart="63dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="13.5dp"
-                android:src="@drawable/pin_solid_icon"
+                android:src="@drawable/pin_solid_icon_pro"
                 />
             <View
                 android:id="@+id/down_arrow_"
@@ -181,7 +181,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="37dp"
-                android:background="@drawable/down_arrow_icon"
+                android:background="@drawable/down_arrow_icon_pro"
                 />
             <ImageView
                 android:contentDescription="@string/comment_icon"
@@ -192,7 +192,7 @@
                 android:layout_marginStart="83dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="390dp"
-                android:src="@drawable/comment_icon"
+                android:src="@drawable/comment_icon_pro"
                 />
             <TextView
                 android:id="@+id/commentNumber"
@@ -214,7 +214,7 @@
                 android:layout_marginStart="149dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="390dp"
-                android:src="@drawable/retweet_stroke_icon"
+                android:src="@drawable/retweet_stroke_icon_pro"
                 />
             <TextView
                 android:id="@+id/retweetNumber"
@@ -236,7 +236,7 @@
                 android:layout_marginStart="215dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="390dp"
-                android:src="@drawable/heart_solid_icon"
+                android:src="@drawable/heart_solid_icon_pro"
                 />
             <TextView
                 android:id="@+id/likeNumber"
@@ -258,7 +258,7 @@
                 android:layout_marginStart="281dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="390dp"
-                android:src="@drawable/share_stroke_icon"
+                android:src="@drawable/share_stroke_icon_pro"
                 />
             <ImageView
                 android:contentDescription="@string/activity_icon"
@@ -269,7 +269,7 @@
                 android:layout_marginStart="360dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="390dp"
-                android:src="@drawable/activity_icon"
+                android:src="@drawable/activity_icon_pro"
                 />
         </RelativeLayout>
     </RelativeLayout>

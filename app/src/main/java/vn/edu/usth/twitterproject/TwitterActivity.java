@@ -6,7 +6,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -57,11 +56,11 @@ public class TwitterActivity extends AppCompatActivity {
         public Fragment getItem(int page) {
 // returns an instance of Fragment corresponding to the specified page
             switch (page) {
-                case 0: return new PostFragment();
-                case 1: return new RepliesFragment();
-                case 2: return new PostFragment();
-                case 3: return new MediaFragment();
-                case 4: return new PostFragment();
+                case 0: return new PostProfileFragment();
+                case 1: return new RepliesProfileFragment();
+                case 2: return new PostProfileFragment();
+                case 3: return new MediaProfileFragment();
+                case 4: return new PostProfileFragment();
             }
             return new Fragment(); // failsafe
         }
